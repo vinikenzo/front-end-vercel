@@ -189,6 +189,8 @@ const Bandas = () =>{
                 />
                 <button type="submit">{ isEdit ? 'Atualizar' : 'Cadastrar'}</button>
             </form>
+
+            <p>{ mensagem }</p>
              
         </>
     )
